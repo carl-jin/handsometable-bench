@@ -1,0 +1,58 @@
+body {
+  padding: 0;
+  margin: 0;
+  padding-left: 210px;
+  padding-top: 92px;
+}
+
+.select-widget,
+.associated-widget,
+.member-widget {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.select-widget .select-item {
+  flex-shrink: 0;
+  white-space: nowrap;
+  padding: 0 12px;
+  border-radius: 14px;
+  margin-right: 4px;
+}
+
+.associated-widget .associated-item {
+  background: #d3d3d3;
+  color: #000;
+  border-radius: 2px;
+  margin-right: 8px;
+  padding: 0px 8px;
+}
+
+.member-widget .member-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.member-widget .member-item .avatar {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.member-widget .member-item .name {
+  font-size: 16px;
+  padding-left: 4px;
+  margin-right: 8px;
+}
+
+.rich-text,
+.hyperlink-widget {
+  overflow: hidden;
+}
+.rich-text h1 {
+  margin-top: 0;
+}

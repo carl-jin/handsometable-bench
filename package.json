@@ -1,0 +1,20 @@
+{
+  "name": "table",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "vite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "handsontable": "^12.1.2",
+    "vite": "^3.0.4"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^7.3.0",
+    "prettier": "^2.7.1"
+  }
+}
